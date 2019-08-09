@@ -64,8 +64,11 @@ button:hover{
   font-family: Arial;
 }
     @media screen and (max-width: 786px){
+        
         .forms{
             height: auto;
             width: auto;
+            padding-left: 10px;
         }
-    }
+        
+}
