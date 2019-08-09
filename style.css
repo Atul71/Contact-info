@@ -3,7 +3,8 @@ body{
     background: linear-gradient(to bottom right, #e1eec3 25%, #ff5e62 64%);
 }
 hr{
-    border: 2px solid red;    
+    border: 2px solid red;  
+    
 }
 button{
     letter-spacing: normal;
@@ -64,11 +65,14 @@ button:hover{
   font-family: Arial;
 }
     @media screen and (max-width: 786px){
-        
+        hr{
+            
+            width: 110%;
+        }
         .forms{
             height: auto;
             width: auto;
             padding-left: 10px;
         }
-        
+    
 }
