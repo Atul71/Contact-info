@@ -9,7 +9,7 @@ button{
     letter-spacing: normal;
     word-spacing: normal;
 }
-.form{
+.forms{
     display: block;
     margin-top: 5%;
     margin-bottom: auto;
@@ -61,15 +61,11 @@ button:hover{
 }
 ::placeholder {
   color: black;
-font-family: Arial;
+  font-family: Arial;
 }
-@media screen and (max-width: 786px){
-    
-    .form{
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        width: auto;
+    @media screen and (max-width: 786px){
+        .forms{
+            height: auto;
+            width: auto;
+        }
     }
-    
-}
