@@ -61,7 +61,7 @@ button:hover{
     font-size: 20px;
     font-family: Arial;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .contact-form-input{
         padding: 5px 3px;
         
@@ -70,6 +70,8 @@ button:hover{
     .form{
         margin-top: 25%;
         display: block;
+        height: auto;
+        width: auto;
     }
 }
 
