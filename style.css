@@ -1,6 +1,4 @@
 body{
-    background: cover;
-    background-repeat:no-repeat;
     font-family: sans-serif;
     background: linear-gradient(to bottom right, #e1eec3 25%, #ff5e62 64%);
 }
@@ -61,34 +59,17 @@ button:hover{
     font-size: 20px;
     font-family: Arial;
 }
-@media screen and (max-width: 700px) {
-    .contact-form-input{
-        padding: 5px 3px;
-        
-    }
-    
-    .form{
-        margin-top: 25%;
-        height: auto;
-        display: block;
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .contact-form-input{
-        padding: 5px 3px;
-        
-    }
-    
-    .form{
-        margin-top: 20px;
-        height: auto;
-        display: block;
-        width: auto;
-    }
-}
 ::placeholder {
   color: black;
 font-family: Arial;
+}
+@media screen and (max-width: 786px){
+    
+    .form{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: auto;
+    }
+    
 }
